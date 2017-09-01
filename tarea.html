@@ -9,6 +9,7 @@
 			<script type="text/javascript">
 	
 		var Datos_Personales={
+					var Datos_Personales={
 					Paciente: "Gabriel",
   					Primer_Apellido: "Bolaños"
 					};
@@ -39,7 +40,7 @@
 
 				var arreglo=[];
 
-				for(var i=0 ; i<4 ;i++){
+				for(var i=0 ; i<5 ;i++){
 					if(i==0)
 					{
 					  arreglo[i]= Datos_Personales.Paciente + " " + Datos_Personales.Primer_Apellido;
@@ -59,10 +60,14 @@
  							arreglo[i]=Datos_Per3.Preferencias + " " + Datos_Per3.Asistencia;
  					}
 
+					else if(i==4){
+ 							arreglo[i]=Datos_Per4.PasaTiempos + " " + Datos_Per4.Programas;
+ 						}
+
 					
 };
 					  	
-				for(var i=0 ; i<4; i++){
+				for(var i=0 ; i<5; i++){
  					alert(arreglo[i] )
 				};
 			</script>
