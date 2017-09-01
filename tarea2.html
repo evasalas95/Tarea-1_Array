@@ -1,0 +1,47 @@
+<DOCTYPE html>
+<html>
+
+	<head>
+			<title>Arreglo_Objetos</title> 
+	</head>	
+
+	<body>
+			<script type="text/javascript">
+				
+					var Datos_Personales={
+					Paciente: "Gabriel",
+  					Primer_Apellido: "Bolaños"
+					};
+					
+					var Datos_Per1={
+					Edad: "5 Años",
+ 					Sexo: "Masculino",
+ 					Categoria: "Niño"
+					};
+					
+
+                                       
+
+				var arreglo=[];
+
+				for(var i=0 ; i<3 ;i++){
+					if(i==0)
+					{
+					  arreglo[i]= Datos_Personales.Paciente + " " + Datos_Personales.Primer_Apellido;
+
+					  }
+				
+				
+					else  if(i==1){
+ 						arreglo[i]=Datos_Per1.Edad + " " + Datos_Per1.Sexo + " " + Datos_Per1.Categoria;
+ 					}
+
+					
+};
+					  	
+				for(var i=0 ; i<4; i++){
+ 					alert(arreglo[i] )
+				};
+			</script>
+	</body>	
+</html>
